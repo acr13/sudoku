@@ -14,15 +14,11 @@ const styles = StyleSheet.create({
 });
 
 
-const Home = (props) => {
-  console.log(props.board);
-
-  return (
-    <View style={styles.container}>
-      <Text>{'Hello World'}</Text>
-    </View>
-  );
-};
+const Home = () => (
+  <View style={styles.container}>
+    <Text>{'Hello World'}</Text>
+  </View>
+);
 
 
 function mapDispatchToProps() {
